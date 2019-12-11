@@ -1,7 +1,7 @@
 from itertools import chain
 import locale
 from django import forms
-from django.utils import six
+import six
 from django.utils.encoding import force_text
 from django.utils.html import format_html
 

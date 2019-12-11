@@ -1,9 +1,9 @@
 from __future__ import absolute_import, division
 
+import six
 import datetime
 
 from django.core.exceptions import ImproperlyConfigured
-from django.utils import six
 from django.utils.encoding import force_text
 from django.utils.functional import lazy
 from django.utils.translation import ugettext_lazy as _, ugettext
